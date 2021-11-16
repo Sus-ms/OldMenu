@@ -22,8 +22,8 @@ namespace DataAcesso.Models
         public int StepIngredientRecipeId { get; set; }
         public int IngredientRecipeId { get; set; }
 
-        public virtual List<StepIngredientRe2cipe> StepIngredientRecipeList { get; set; }
-        public virtual List<IngredientRecipe2> IngredientRecipeList { get; set; }
+        public virtual List<StepIngredientRecipe> StepIngredientRecipeList { get; set; }
+        public virtual List<IngredientRecipe> IngredientRecipeList { get; set; }
         #endregion
     }
 }

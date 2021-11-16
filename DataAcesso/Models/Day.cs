@@ -9,6 +9,6 @@ namespace DataAcesso.Models
     public class Day
     {
         public DateTime Date { get; set; }
-        public virtual List<Recip2e> RecipeList { get; set; }
+        public virtual List<Recipe> RecipeList { get; set; }
     }
 }
